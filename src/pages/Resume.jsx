@@ -9,7 +9,7 @@ const Resume = () => {
             <h2 className="text-primary text-3xl mb-4 font-bold">Summary</h2>
             <div className="flex justify-start">
               <div className="flex justify-center pt-1 relative">
-                <div className="w-[15px] h-[15px] bg-secondary rounded-full z-10"></div>
+                <div className="w-[15px] h-[15px] bg-secondary rounded-full z-[1]"></div>
                 <div className="w-[2px] h-full bg-darkGray absolute "></div>
               </div>
               <div className="content ml-2 pb-6">
@@ -34,7 +34,7 @@ const Resume = () => {
             <h2 className="text-primary text-3xl mb-4 font-bold">Education</h2>
             <div className="flex justify-start">
               <div className="flex justify-center pt-1 relative">
-                <div className="w-[15px] h-[15px] bg-secondary rounded-full z-10"></div>
+                <div className="w-[15px] h-[15px] bg-secondary rounded-full z-[1]"></div>
                 <div className="w-[2px] h-full bg-darkGray absolute "></div>
               </div>
               <div className="content ml-2 pb-6">
@@ -55,8 +55,8 @@ const Resume = () => {
           <div className="mb-10">
             <h2 className="text-primary text-3xl mb-4 font-bold">IT Certifications</h2>
             <div className="flex justify-start">
-              <div className="flex justify-center pt-1 relative">
-                <div className="w-[15px] h-[15px] bg-secondary rounded-full z-10"></div>
+              <div className="flex justify-center pt-1 relative hidden">
+                <div className="w-[15px] h-[15px] bg-secondary rounded-full z-[1]"></div>
                 <div className="w-[2px] h-full bg-darkGray absolute "></div>
               </div>
               <div className="content ml-2 pb-6">
@@ -82,7 +82,7 @@ const Resume = () => {
             </h2>
             <div className="flex justify-start">
               <div className="flex justify-center pt-1 relative">
-                <div className="w-[15px] h-[15px] bg-secondary rounded-full z-10"></div>
+                <div className="w-[15px] h-[15px] bg-secondary rounded-full z-[1]"></div>
                 <div className="w-[2px] h-full bg-darkGray absolute "></div>
               </div>
               <div className="content ml-2 pb-6">
@@ -107,7 +107,7 @@ const Resume = () => {
             </div>
             <div className="flex justify-start">
               <div className="flex justify-center pt-1 relative">
-                <div className="w-[15px] h-[15px] bg-secondary rounded-full z-10"></div>
+                <div className="w-[15px] h-[15px] bg-secondary rounded-full z-[1]"></div>
                 <div className="w-[2px] h-full bg-darkGray absolute "></div>
               </div>
               <div className="content ml-2 pb-6">
@@ -133,7 +133,7 @@ const Resume = () => {
             </div>
             <div className="flex justify-start">
               <div className="flex justify-center pt-1 relative">
-                <div className="w-[15px] h-[15px] bg-secondary rounded-full z-10"></div>
+                <div className="w-[15px] h-[15px] bg-secondary rounded-full z-[1]"></div>
                 <div className="w-[2px] h-full bg-darkGray absolute "></div>
               </div>
               <div className="content ml-2">

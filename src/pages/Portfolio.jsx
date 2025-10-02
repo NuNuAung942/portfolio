@@ -39,6 +39,24 @@ const cards = [
     language: "Reactjs (1 month group Project)",
     catId: 3,
   },
+  {
+    id: 7,
+    title: "Lease Brokerage (real estate web app)",
+    language: "Reactjs (Client Project)",
+    catId: 3,
+  },
+  {
+    id: 8,
+    title: "Client Management System",
+    language: "Reactjs (Client Project)",
+    catId: 3,
+  },
+  {
+    id: 9,
+    title: "Sales Brokerage (sales management web app)",
+    language: "Reactjs (Client Project)",
+    catId: 3,
+  },
 ];
 
 const categories = [

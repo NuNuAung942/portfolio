@@ -19,7 +19,7 @@ const Header = ({ page }) => {
         } w-full sticky relative top-0`}
       >
         <div
-          className={`container h-[70px] flex ${
+          className={`container h-[70px] ${isToggle?'hidden':'flex'} ${
             page !== "home" ? "justify-between" : "justify-end"
           } items-center mx-auto`}
         >
@@ -42,7 +42,7 @@ const Header = ({ page }) => {
           transition={{ duration: 1, ease: "easeOut" }}
           className={`${
             isToggle
-              ? "md:hidden absolute top-0 w-full h-screen bg-black/90"
+              ? "md:hidden sticky top-0 w-full h-screen bg-black/90 z-[20]"
               : "hidden"
           }`}
         >
